@@ -1,0 +1,30 @@
+{
+  "name": "getnet-sdk",
+  "version": "1.0.0",
+  "description": "A getnet sdk",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeydenJar/getnet-sdk.git"
+  },
+  "keywords": [
+    "getnet",
+    "sdk",
+    "payment"
+  ],
+  "author": "Luan Henning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeydenJar/getnet-sdk/issues"
+  },
+  "homepage": "https://github.com/LeydenJar/getnet-sdk#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
